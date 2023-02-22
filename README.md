@@ -1,3 +1,17 @@
-# Referência para upload
+# Repositório Final do Projeto da UC de Projeto Mobile
 
-https://www.google.com/search?q=como+fazer+um+update+com+firebase+realtime+e+react+native&rlz=1C1GCEU_pt-BRBR1024BR1024&sxsrf=AJOqlzULskXdb9PbWFilHd7mZ7AzaJYYqQ%3A1675263081431&ei=aXzaY-j-GfLL5OUPgdK60Aw&oq=como+fazer+um+update+com+firebase+realtime+e+reactn&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgcIIRCgARAKMgcIIRCgARAKMgcIIRCgARAKOgoIABBHENYEELADOgUIIRCgAToFCAAQogQ6BwgAEB4QogRKBAhBGABKBAhGGABQjwdY4CBgtS1oBnABeACAAbEBiAHNEJIBBDAuMTSYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp#fpstate=ive&vld=cid:eec79630,vid:q1bxyyKh3Dc
+## Para testar a aplicação, algumas configurações devem serem feitas
+
+- O Back End do projeto foi construído em cima de uma API local, Node. Para conseguir utilizar integralmente a aplicação, deverá baixar o repositório mobile_api em: https://github.com/Adriel21/mobile_api
+
+- Após baixar o repositório, dê um `npm install`
+
+- Pegue o banco de dados `mobile (4).sql` que está no repositório Fala-no-Mic-Final, na pasta `bd`
+
+- Crie um banco de dados no PHPMYADMIN com o nome mobile e, importe o arquivo do passo a cima
+
+- Inicie a API node, com o comando `node index.js`
+
+- Mude o endereço ip dos arquivos em que está sendo consumida a api no projeto, nos arquivos: home.js, cadastro.js, detalhes.js, perfilpublico.js, perfil.js, publicar.js, editarRedeSocial.js
+
+- Inicie o projeto com npm start e utilize o expo go ou android studio para emular o projeto
